@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.13.0 (MiKTeX 21.1) (format=lualatex 2021.2.16)  16 FEB 2021 17:29
+This is LuaHBTeX, Version 1.13.0 (MiKTeX 21.1) (format=lualatex 2021.2.16)  16 FEB 2021 17:33
  restricted system commands enabled.
 **EDDF_TWR_QS.tex
 (./EDDF_TWR_QS.tex
@@ -515,17 +515,17 @@ Overfull \hbox (152.59644pt too wide) in paragraph at lines 139--147
 
 Here is how much of LuaTeX's memory you used:
  8125 strings out of 478819
- 125007,662416 words of node,token memory allocated
+ 125005,662416 words of node,token memory allocated
  421 words of node memory still in use:
    3 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 1 glyph, 4 attribute, 51 glue_spec,
  4 attribute_list, 1 write nodes
-   avail lists: 2:4050,3:80,4:110,5:926,6:18,7:9168,8:2,9:4034,10:5,11:144
+   avail lists: 2:3970,3:80,4:110,5:886,6:18,7:9176,8:2,9:4034,10:5,11:144
  27553 multiletter control sequences out of 65536+200000
  49 fonts using 14952271 bytes
  81i,14n,85p,813b,241s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/WINDOWS/Fonts/segoeuib.ttf><C:/WINDOWS/Fonts/segoeuisl.ttf><C:/Users/justu/A
 ppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on EDDF_TWR_QS.pdf (1 page, 81804 bytes).
+Output written on EDDF_TWR_QS.pdf (1 page, 81667 bytes).
 
 PDF statistics: 25 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 131072)
