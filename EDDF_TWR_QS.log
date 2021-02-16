@@ -1,63 +1,35 @@
-This is LuaHBTeX, Version 1.12.0 (MiKTeX 20.7) (format=lualatex 2020.8.26)  16 FEB 2021 17:23
+This is LuaHBTeX, Version 1.13.0 (MiKTeX 21.1) (format=lualatex 2021.2.16)  16 FEB 2021 17:29
  restricted system commands enabled.
 **EDDF_TWR_QS.tex
 (./EDDF_TWR_QS.tex
-LaTeX2e <2020-02-02> patch level 5
-Lua module: luaotfload-main 2020-05-06 3.14 luaotfload entry point
-Lua module: luaotfload-init 2020-05-06 3.14 luaotfload submodule / initializatio
-n
-Lua module: lualibs 2020-05-01 2.71 ConTeXt Lua standard libraries.
-Lua module: lualibs-extended 2020-05-01 2.71 ConTeXt Lua libraries -- extended c
+LaTeX2e <2020-10-01> patch level 4
+Lua module: luaotfload 2021-01-08 3.17 Lua based OpenType font support
+Lua module: lualibs 2020-12-30 2.73 ConTeXt Lua standard libraries.
+Lua module: lualibs-extended 2020-12-30 2.73 ConTeXt Lua libraries -- extended c
 ollection.
-Lua module: luaotfload-log 2020-05-06 3.14 luaotfload submodule / logging
-Lua module: luaotfload-parsers 2020-05-06 3.14 luaotfload submodule / filelist
-Lua module: luaotfload-configuration 2020-05-06 3.14 luaotfload submodule / conf
-ig file reader
-luaotfload | conf : Root cache directory is "C:/Users/Chef/AppData/Local/MiKTeX/
-luatex-cache/generic-dev/names".
-luaotfload | init : Loading fontloader "fontloader-2020-05-06.lua" from kpse-res
-olved path "C:/Users/Chef/AppData/Local/Programs/MiKTeX/tex/luatex/luaotfload/fo
-ntloader-2020-05-06.lua".
+luaotfload | conf : Root cache directory is "C:/Users/justu/AppData/Local/MiKTeX
+/2.9/luatex-cache/generic/names".
+luaotfload | init : Loading fontloader "fontloader-2021-01-07.lua" from kpse-res
+olved path "C:/Users/justu/AppData/Local/Programs/MiKTeX 2.9/tex/luatex/luaotflo
+ad/fontloader-2021-01-07.lua".
 Lua-only attribute luaotfload@noligature = 1
 Lua-only attribute luaotfload@syllabe = 2
-luaotfload | init : Context OpenType loader version 0x1.8e353f7ced917p+1
-Lua module: luaotfload-fallback 2020-05-06 3.14 luaotfload submodule / fallback
-Lua module: luaotfload-multiscript 2020-05-06 3.14 luaotfload submodule / multis
-cript
-Lua module: luaotfload-script 2020-05-06 3.14 luaotfload submodule / Script help
-ers
+luaotfload | init : Context OpenType loader version 0x1.8e76c8b439581p+1
 Inserting `luaotfload.node_processor' at position 1 in `pre_linebreak_filter'.
 Inserting `luaotfload.node_processor' at position 1 in `hpack_filter'.
-Lua module: luaotfload-loaders 2020-05-06 3.14 luaotfload submodule / callback h
-andling
+Inserting `luaotfload.glyph_stream' at position 1 in `glyph_stream_provider'.
 Inserting `luaotfload.define_font' at position 1 in `define_font'.
-Lua module: luaotfload-database 2020-05-06 3.14 luaotfload submodule / database
-Lua module: luaotfload-unicode 2020-05-06 3.14 luaotfload submodule / Unicode he
-lpers
-Lua module: luaotfload-colors 2020-05-06 3.14 luaotfload submodule / color
 Lua-only attribute luaotfload_color_attribute = 3
-Lua module: luaotfload-resolvers 2020-05-06 3.14 luaotfload submodule / resolver
-s
-luaotfload | conf : Root cache directory is "C:/Users/Chef/AppData/Local/MiKTeX/
-luatex-cache/generic-dev/names".
-Lua module: luaotfload-features 2020-05-06 3.14 luaotfload submodule / features
-Lua module: luaotfload-harf-define 2020-05-06 3.14 luaotfload submodule / databa
-se
+luaotfload | conf : Root cache directory is "C:/Users/justu/AppData/Local/MiKTeX
+/2.9/luatex-cache/generic/names".
 Inserting `luaotfload.harf.strip_prefix' at position 1 in `find_opentype_file'.
 Inserting `luaotfload.harf.strip_prefix' at position 1 in `find_truetype_file'.
-Lua module: luaotfload-harf-plug 2020-05-06 3.14 luaotfload submodule / database
-Inserting `Harf pre_output_filter callback' at position 1 in `pre_output_filter'
-.
-Inserting `Harf wrapup_run callback' at position 1 in `wrapup_run'.
-Inserting `Harf finish_pdffile callback' at position 1 in `finish_pdffile'.
-Inserting `Harf glyph_info callback' at position 1 in `glyph_info'.
-Lua module: luaotfload-letterspace 2020-05-06 3.14 luaotfload submodule / color
-Lua module: luaotfload-embolden 2020-05-06 3.14 luaotfload submodule / color
-Lua module: luaotfload-notdef 2020-05-06 3.14 luaotfload submodule / color
-Lua module: luaotfload-suppress 2020-05-06 3.14 luaotfload submodule / suppress
-Lua module: luaotfload-szss 2020-05-06 3.14 luaotfload submodule / color
-Lua module: luaotfload-auxiliary 2020-05-06 3.14 luaotfload submodule / auxiliar
-y functions
+Inserting `luaotfload.harf.finalize_vlist' at position 1 in `post_linebreak_filt
+er'.
+Inserting `luaotfload.harf.finalize_hlist' at position 2 in `hpack_filter'.
+Inserting `luaotfload.cleanup_files' at position 1 in `wrapup_run'.
+Inserting `luaotfload.harf.finalize_unicode' at position 1 in `finish_pdffile'.
+Inserting `luaotfload.glyphinfo' at position 1 in `glyph_info'.
 Inserting `luaotfload.aux.set_sscale_dimens' at position 1 in `luaotfload.patch_
 font'.
 Inserting `luaotfload.aux.set_font_index' at position 2 in `luaotfload.patch_fon
@@ -69,74 +41,72 @@ t_unsafe'.
 Inserting `luaotfload.aux.set_capheight' at position 4 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.aux.set_xheight' at position 5 in `luaotfload.patch_font'.
-Lua module: luaotfload-tounicode 2020-05-06 3.14 luaotfload submodule / tounicod
-e
 Inserting `luaotfload.rewrite_fontname' at position 6 in `luaotfload.patch_font'
-. L3 programming layer <2020-08-07>
-(C:/Users/Chef/AppData/Local/Programs/MiKTeX/tex/latex/base/article.cls
-Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
-(C:/Users/Chef/AppData/Local/Programs/MiKTeX/tex/latex/base/size10.clo
-File: size10.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
-luaotfload | db : Font names database loaded from C:/Users/Chef/AppData/Local/Mi
-KTeX/luatex-cache/generic-dev/names/luaotfload-names.luc)
-\c@part=\count164
-\c@section=\count165
-\c@subsection=\count166
-\c@subsubsection=\count167
-\c@paragraph=\count168
-\c@subparagraph=\count169
-\c@figure=\count170
-\c@table=\count171
+. L3 programming layer <2021-02-06> xparse <2020-03-03>
+("C:/Users/justu/AppData/Local/Programs/MiKTeX 2.9/tex/latex/base/article.cls"
+Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
+("C:/Users/justu/AppData/Local/Programs/MiKTeX 2.9/tex/latex/base/size10.clo"
+File: size10.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
+luaotfload | db : Font names database loaded from C:/Users/justu/AppData/Local/M
+iKTeX/2.9/luatex-cache/generic/names/luaotfload-names.luc)
+\c@part=\count173
+\c@section=\count174
+\c@subsection=\count175
+\c@subsubsection=\count176
+\c@paragraph=\count177
+\c@subparagraph=\count178
+\c@figure=\count179
+\c@table=\count180
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
-\bibindent=\dimen134
+\bibindent=\dimen138
 )
-(C:/Users/Chef/AppData/Local/Programs/MiKTeX/tex/latex/fontspec/fontspec.sty
-(C:/Users/Chef/AppData/Local/Programs/MiKTeX/tex/latex/l3packages/xparse/xparse
-.sty (C:/Users/Chef/AppData/Local/Programs/MiKTeX/tex/latex/l3kernel/expl3.sty
-Package: expl3 2020-08-07 L3 programming layer (loader) 
+("C:/Users/justu/AppData/Local/Programs/MiKTeX 2.9/tex/latex/fontspec/fontspec.
+sty"
+("C:/Users/justu/AppData/Local/Programs/MiKTeX 2.9/tex/latex/l3packages/xparse/
+xparse.sty"
+("C:/Users/justu/AppData/Local/Programs/MiKTeX 2.9/tex/latex/l3kernel/expl3.sty
+"
+Package: expl3 2021-02-06 L3 programming layer (loader) 
 
-(C:/Users/Chef/AppData/Local/Programs/MiKTeX/tex/latex/l3backend/l3backend-pdfm
-ode.def
-File: l3backend-pdfmode.def 2020-08-07 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count172
-\l__pdf_internal_box=\box45
+("C:/Users/justu/AppData/Local/Programs/MiKTeX 2.9/tex/latex/l3backend/l3backen
+d-luatex.def"
+File: l3backend-luatex.def 2021-02-06 L3 backend support: PDF output (LuaTeX)
+\l__color_backend_stack_int=\count181
+\l__pdf_internal_box=\box47
 ))
-Package: xparse 2020-05-15 L3 Experimental document command parser
+Package: xparse 2020-10-27 L3 Experimental document command parser
 
-(C:/Users/Chef/AppData/Local/Programs/MiKTeX/tex/latex/l3packages/xparse/xparse
--generic.tex
-\l__xparse_current_arg_int=\count173
-\g__xparse_grabber_int=\count174
-\l__xparse_m_args_int=\count175
-\l__xparse_v_nesting_int=\count176
-))
+("C:/Users/justu/AppData/Local/Programs/MiKTeX 2.9/tex/latex/l3packages/xparse/
+xparse-generic.tex"))
 Package: fontspec 2020/02/21 v2.7i Font selection for XeLaTeX and LuaLaTeX
 Lua module: fontspec 2020/02/21 2.7i Font selection for XeLaTeX and LuaLaTeX
-(C:/Users/Chef/AppData/Local/Programs/MiKTeX/tex/latex/fontspec/fontspec-luatex
-.sty
-Package: fontspec-luatex 2020/02/21 v2.7i Font selection for XeLaTeX and LuaLaTe
-X
-\l__fontspec_script_int=\count177
-\l__fontspec_language_int=\count178
-\l__fontspec_strnum_int=\count179
-\l__fontspec_tmp_int=\count180
-\l__fontspec_tmpa_int=\count181
-\l__fontspec_tmpb_int=\count182
-\l__fontspec_tmpc_int=\count183
-\l__fontspec_em_int=\count184
-\l__fontspec_emdef_int=\count185
-\l__fontspec_strong_int=\count186
-\l__fontspec_strongdef_int=\count187
-\l__fontspec_tmpa_dim=\dimen135
-\l__fontspec_tmpb_dim=\dimen136
-\l__fontspec_tmpc_dim=\dimen137
- (C:/Users/Chef/AppData/Local/Programs/MiKTeX/tex/latex/base/fontenc.sty
-Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
+("C:/Users/justu/AppData/Local/Programs/MiKTeX 2.9/tex/latex/fontspec/fontspec-
+luatex.sty"
+Package: fontspec-luatex 2020/02/21 v2.7i Font selection for XeLaTeX and LuaLaT
+eX
+\l__fontspec_script_int=\count182
+\l__fontspec_language_int=\count183
+\l__fontspec_strnum_int=\count184
+\l__fontspec_tmp_int=\count185
+\l__fontspec_tmpa_int=\count186
+\l__fontspec_tmpb_int=\count187
+\l__fontspec_tmpc_int=\count188
+\l__fontspec_em_int=\count189
+\l__fontspec_emdef_int=\count190
+\l__fontspec_strong_int=\count191
+\l__fontspec_strongdef_int=\count192
+\l__fontspec_tmpa_dim=\dimen139
+\l__fontspec_tmpb_dim=\dimen140
+\l__fontspec_tmpc_dim=\dimen141
+
+("C:/Users/justu/AppData/Local/Programs/MiKTeX 2.9/tex/latex/base/fontenc.sty"
+Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
 )
-(C:/Users/Chef/AppData/Local/Programs/MiKTeX/tex/latex/fontspec/fontspec.cfg)))
-luaotfload | cache : Lookup cache loaded from C:/Users/Chef/AppData/Local/MiKTeX
-/luatex-cache/generic-dev/names/luaotfload-lookup-cache.luc.
+("C:/Users/justu/AppData/Local/Programs/MiKTeX 2.9/tex/latex/fontspec/fontspec.
+cfg")))
+luaotfload | cache : Lookup cache loaded from C:/Users/justu/AppData/Local/MiKTe
+X/2.9/luatex-cache/generic/names/luaotfload-lookup-cache.luc.
 
 Package fontspec Info: Font family 'SegoeUI(0)' created for font 'Segoe UI'
 (fontspec)             with options [Ligatures=TeX].
@@ -147,142 +117,153 @@ Package fontspec Info: Font family 'SegoeUI(0)' created for font 'Segoe UI'
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
 (fontspec)             <->"SegoeUI:mode=node;script=latn;language=dflt;+tlig;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
-(fontspec)             <->"SegoeUI:mode=node;script=latn;language=dflt;+tlig;+sm
-cp;"
+(fontspec)             <->"SegoeUI:mode=node;script=latn;language=dflt;+tlig;+s
+mcp;"
 (fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->"SegoeUI/B:mode=node;script=latn;language=dflt;+tlig;"
-
-(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
-(fontspec)             <->"SegoeUI/B:mode=node;script=latn;language=dflt;+tlig;+
-smcp;"
-(fontspec)             - 'italic' (m/it) with NFSS spec.:
-(fontspec)             <->"SegoeUI/I:mode=node;script=latn;language=dflt;+tlig;"
-
-(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
-(fontspec)             <->"SegoeUI/I:mode=node;script=latn;language=dflt;+tlig;+
-smcp;"
-(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
-(fontspec)             <->"SegoeUI/BI:mode=node;script=latn;language=dflt;+tlig;
+(fontspec)             <->"SegoeUI/B:mode=node;script=latn;language=dflt;+tlig;
 "
-(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
-(fontspec)             <->"SegoeUI/BI:mode=node;script=latn;language=dflt;+tlig;
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->"SegoeUI/B:mode=node;script=latn;language=dflt;+tlig;
 +smcp;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->"SegoeUI/I:mode=node;script=latn;language=dflt;+tlig;
+"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->"SegoeUI/I:mode=node;script=latn;language=dflt;+tlig;
++smcp;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->"SegoeUI/BI:mode=node;script=latn;language=dflt;+tlig
+;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
+(fontspec)             <->"SegoeUI/BI:mode=node;script=latn;language=dflt;+tlig
+;+smcp;"
 
-(C:/Users/Chef/AppData/Local/Programs/MiKTeX/tex/latex/multirow/multirow.sty
-Package: multirow 2019/05/31 v2.5 Span multiple rows of a table
+
+("C:/Users/justu/AppData/Local/Programs/MiKTeX 2.9/tex/latex/multirow/multirow.
+sty"
+Package: multirow 2021/01/29 v2.7 Span multiple rows of a table
 \multirow@colwidth=\skip49
-\multirow@cntb=\count188
+\multirow@cntb=\count193
 \multirow@dima=\skip50
-\bigstrutjot=\dimen138
+\bigstrutjot=\dimen142
 )
-(C:/Users/Chef/AppData/Local/Programs/MiKTeX/tex/latex/base/inputenc.sty
-Package: inputenc 2018/08/11 v1.3c Input encoding file
+("C:/Users/justu/AppData/Local/Programs/MiKTeX 2.9/tex/latex/base/inputenc.sty"
+Package: inputenc 2020/08/01 v1.3d Input encoding file
 \inpenc@prehook=\toks15
 \inpenc@posthook=\toks16
 
-
 Package inputenc Warning: inputenc package ignored with utf8 based engines.
 
-) (C:/Users/Chef/AppData/Local/Programs/MiKTeX/tex/latex/geometry/geometry.sty
+)
+("C:/Users/justu/AppData/Local/Programs/MiKTeX 2.9/tex/latex/geometry/geometry.
+sty"
 Package: geometry 2020/01/02 v5.9 Page Geometry
 
-(C:/Users/Chef/AppData/Local/Programs/MiKTeX/tex/latex/graphics/keyval.sty
+("C:/Users/justu/AppData/Local/Programs/MiKTeX 2.9/tex/latex/graphics/keyval.st
+y"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks17
 )
-(C:/Users/Chef/AppData/Local/Programs/MiKTeX/tex/generic/iftex/ifvtex.sty
+("C:/Users/justu/AppData/Local/Programs/MiKTeX 2.9/tex/generic/iftex/ifvtex.sty
+"
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
-
-(C:/Users/Chef/AppData/Local/Programs/MiKTeX/tex/generic/iftex/iftex.sty
+ ("C:/Users/justu/AppData/Local/Programs/MiKTeX 2.9/tex/generic/iftex/iftex.sty
+"
 Package: iftex 2020/03/06 v1.0d TeX engine tests
 ))
-\Gm@cnth=\count189
-\Gm@cntv=\count190
-\c@Gm@tempcnt=\count191
-\Gm@bindingoffset=\dimen139
-\Gm@wd@mp=\dimen140
-\Gm@odd@mp=\dimen141
-\Gm@even@mp=\dimen142
-\Gm@layoutwidth=\dimen143
-\Gm@layoutheight=\dimen144
-\Gm@layouthoffset=\dimen145
-\Gm@layoutvoffset=\dimen146
+\Gm@cnth=\count194
+\Gm@cntv=\count195
+\c@Gm@tempcnt=\count196
+\Gm@bindingoffset=\dimen143
+\Gm@wd@mp=\dimen144
+\Gm@odd@mp=\dimen145
+\Gm@even@mp=\dimen146
+\Gm@layoutwidth=\dimen147
+\Gm@layoutheight=\dimen148
+\Gm@layouthoffset=\dimen149
+\Gm@layoutvoffset=\dimen150
 \Gm@dimlist=\toks18
 
-(C:/Users/Chef/AppData/Local/Programs/MiKTeX/tex/latex/geometry/geometry.cfg))
-(C:/Users/Chef/AppData/Local/Programs/MiKTeX/tex/latex/float/float.sty
+("C:/Users/justu/AppData/Local/Programs/MiKTeX 2.9/tex/latex/geometry/geometry.
+cfg"))
+("C:/Users/justu/AppData/Local/Programs/MiKTeX 2.9/tex/latex/float/float.sty"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count192
+\c@float@type=\count197
 \float@exts=\toks19
-\float@box=\box46
+\float@box=\box48
 \@float@everytoks=\toks20
-\@floatcapt=\box47
+\@floatcapt=\box49
 )
-(C:/Users/Chef/AppData/Local/Programs/MiKTeX/tex/latex/graphics/graphicx.sty
-Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+("C:/Users/justu/AppData/Local/Programs/MiKTeX 2.9/tex/latex/graphics/graphicx.
+sty"
+Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
 
-(C:/Users/Chef/AppData/Local/Programs/MiKTeX/tex/latex/graphics/graphics.sty
-Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+("C:/Users/justu/AppData/Local/Programs/MiKTeX 2.9/tex/latex/graphics/graphics.
+sty"
+Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
 
-(C:/Users/Chef/AppData/Local/Programs/MiKTeX/tex/latex/graphics/trig.sty
+("C:/Users/justu/AppData/Local/Programs/MiKTeX 2.9/tex/latex/graphics/trig.sty"
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-(C:/Users/Chef/AppData/Local/Programs/MiKTeX/tex/latex/graphics-cfg/graphics.cf
-g
+("C:/Users/justu/AppData/Local/Programs/MiKTeX 2.9/tex/latex/graphics-cfg/graph
+ics.cfg"
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: luatex.def on input line 105.
 
-(C:/Users/Chef/AppData/Local/Programs/MiKTeX/tex/latex/graphics-def/luatex.def
-File: luatex.def 2018/01/08 v1.0l Graphics/color driver for luatex
+("C:/Users/justu/AppData/Local/Programs/MiKTeX 2.9/tex/latex/graphics-def/luate
+x.def"
+File: luatex.def 2020/10/05 v1.2a Graphics/color driver for luatex
 ))
-\Gin@req@height=\dimen147
-\Gin@req@width=\dimen148
-) (C:/Users/Chef/AppData/Local/Programs/MiKTeX/tex/latex/textpos/textpos.sty
-Package: textpos 2019/04/15 v1.9.1
-
-Package: textpos 2019/04/15 1.9.1, absolute positioning of text on the page
-(C:/Users/Chef/AppData/Local/Programs/MiKTeX/tex/latex/ms/everyshi.sty
-Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+\Gin@req@height=\dimen151
+\Gin@req@width=\dimen152
 )
-\TP@textbox=\box48
-\TP@holdbox=\box49
-\TPHorizModule=\dimen149
-\TPVertModule=\dimen150
-\TP@margin=\dimen151
-\TP@absmargin=\dimen152
+("C:/Users/justu/AppData/Local/Programs/MiKTeX 2.9/tex/latex/textpos/textpos.st
+y"
+Package: textpos 2020/09/26 v1.10
 
+Package: textpos 2020/09/26 1.10, absolute positioning of text on the page
+Package textpos Info: choosing support for LaTeX3 on input line 61.
+\TP@textbox=\box50
+\TP@holdbox=\box51
+\TPHorizModule=\dimen153
+\TPVertModule=\dimen154
+\TP@margin=\dimen155
+\TP@absmargin=\dimen156
 Grid set 16 x 16 = 52.81541pt x 37.34424pt
-\TPboxrulesize=\dimen153
-\TP@ox=\dimen154
-\TP@oy=\dimen155
+\TPboxrulesize=\dimen157
+\TP@ox=\dimen158
+\TP@oy=\dimen159
 \TP@tbargs=\toks21
-\TP@prevdepth=\dimen156
 TextBlockOrigin set to 0pt x 0pt
-) (C:/Users/Chef/AppData/Local/Programs/MiKTeX/tex/latex/tools/array.sty
-Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
-\col@sep=\dimen157
-\ar@mcellbox=\box50
-\extrarowheight=\dimen158
+)
+("C:/Users/justu/AppData/Local/Programs/MiKTeX 2.9/tex/latex/latex-tools/array.
+sty"
+Package: array 2020/10/01 v2.5c Tabular extension package (FMi)
+\col@sep=\dimen160
+\ar@mcellbox=\box52
+\extrarowheight=\dimen161
 \NC@list=\toks22
 \extratabsurround=\skip51
 \backup@length=\skip52
-\ar@cellbox=\box51
+\ar@cellbox=\box53
 )
-(C:/Users/Chef/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty
+("C:/Users/justu/AppData/Local/Programs/MiKTeX 2.9/tex/latex/xcolor/xcolor.sty"
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
-(C:/Users/Chef/AppData/Local/Programs/MiKTeX/tex/latex/graphics-cfg/color.cfg
+("C:/Users/justu/AppData/Local/Programs/MiKTeX 2.9/tex/latex/graphics-cfg/color
+.cfg"
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: luatex.def on input line 225.
 
-(C:/Users/Chef/AppData/Local/Programs/MiKTeX/tex/latex/colortbl/colortbl.sty
+("C:/Users/justu/AppData/Local/Programs/MiKTeX 2.9/tex/latex/colortbl/colortbl.
+sty"
 Package: colortbl 2020/01/04 v1.0e Color table columns (DPC)
 \everycr=\toks23
 \minrowclearance=\skip53
 )
-\rownum=\count193
+\rownum=\count198
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
 Package xcolor Info: Model `RGB' extended on input line 1364.
@@ -293,55 +274,62 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 )
-(C:/Users/Chef/AppData/Local/Programs/MiKTeX/tex/latex/booktabs/booktabs.sty
+("C:/Users/justu/AppData/Local/Programs/MiKTeX 2.9/tex/latex/booktabs/booktabs.
+sty"
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
-\heavyrulewidth=\dimen159
-\lightrulewidth=\dimen160
-\cmidrulewidth=\dimen161
-\belowrulesep=\dimen162
-\belowbottomsep=\dimen163
-\aboverulesep=\dimen164
-\abovetopsep=\dimen165
-\cmidrulesep=\dimen166
-\cmidrulekern=\dimen167
-\defaultaddspace=\dimen168
-\@cmidla=\count194
-\@cmidlb=\count195
-\@aboverulesep=\dimen169
-\@belowrulesep=\dimen170
-\@thisruleclass=\count196
-\@lastruleclass=\count197
-\@thisrulewidth=\dimen171
+\heavyrulewidth=\dimen162
+\lightrulewidth=\dimen163
+\cmidrulewidth=\dimen164
+\belowrulesep=\dimen165
+\belowbottomsep=\dimen166
+\aboverulesep=\dimen167
+\abovetopsep=\dimen168
+\cmidrulesep=\dimen169
+\cmidrulekern=\dimen170
+\defaultaddspace=\dimen171
+\@cmidla=\count199
+\@cmidlb=\count266
+\@aboverulesep=\dimen172
+\@belowrulesep=\dimen173
+\@thisruleclass=\count267
+\@lastruleclass=\count268
+\@thisrulewidth=\dimen174
 )
-(C:/Users/Chef/AppData/Local/Programs/MiKTeX/tex/latex/datetime2/datetime2.sty
+("C:/Users/justu/AppData/Local/Programs/MiKTeX 2.9/tex/latex/datetime2/datetime
+2.sty"
 Package: datetime2 2020/03/02 v1.5.6 (NLCT) date and time formats
 
-(C:/Users/Chef/AppData/Local/Programs/MiKTeX/tex/latex/tracklang/tracklang.sty
+("C:/Users/justu/AppData/Local/Programs/MiKTeX 2.9/tex/latex/tracklang/tracklan
+g.sty"
 Package: tracklang 2020/06/30 v1.5 (NLCT) Track Languages
 
-(C:/Users/Chef/AppData/Local/Programs/MiKTeX/tex/generic/tracklang/tracklang.te
-x))
-(C:/Users/Chef/AppData/Local/Programs/MiKTeX/tex/latex/etoolbox/etoolbox.sty
-Package: etoolbox 2020/07/15 v2.5i e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count198
+("C:/Users/justu/AppData/Local/Programs/MiKTeX 2.9/tex/generic/tracklang/trackl
+ang.tex"))
+("C:/Users/justu/AppData/Local/Programs/MiKTeX 2.9/tex/latex/etoolbox/etoolbox.
+sty"
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count269
 )
-(C:/Users/Chef/AppData/Local/Programs/MiKTeX/tex/latex/xkeyval/xkeyval.sty
-Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+("C:/Users/justu/AppData/Local/Programs/MiKTeX 2.9/tex/latex/xkeyval/xkeyval.st
+y"
+Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
 
-(C:/Users/Chef/AppData/Local/Programs/MiKTeX/tex/generic/xkeyval/xkeyval.tex
-(C:/Users/Chef/AppData/Local/Programs/MiKTeX/tex/generic/xkeyval/xkvutils.tex
+("C:/Users/justu/AppData/Local/Programs/MiKTeX 2.9/tex/generic/xkeyval/xkeyval.
+tex"
+("C:/Users/justu/AppData/Local/Programs/MiKTeX 2.9/tex/generic/xkeyval/xkvutils
+.tex"
 \XKV@toks=\toks24
 \XKV@tempa@toks=\toks25
 )
-\XKV@depth=\count199
+\XKV@depth=\count270
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
-(C:/Users/Chef/AppData/Local/Programs/MiKTeX/tex/latex/datetime2-english/dateti
-me2-en-US.ldf
+("C:/Users/justu/AppData/Local/Programs/MiKTeX 2.9/tex/latex/datetime2-english/
+datetime2-en-US.ldf"
 File: datetime2-en-US.ldf 2019/10/21 v1.05 (NLCT)
 
-(C:/Users/Chef/AppData/Local/Programs/MiKTeX/tex/latex/datetime2-english/dateti
-me2-english-base.ldf
+("C:/Users/justu/AppData/Local/Programs/MiKTeX 2.9/tex/latex/datetime2-english/
+datetime2-english-base.ldf"
 File: datetime2-english-base.ldf 2019/10/21 v1.05 (NLCT)
 )))
 \Oldarrayrulewidth=\skip54
@@ -357,10 +345,10 @@ LaTeX Font Info:    ... okay on input line 28.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
 LaTeX Font Info:    ... okay on input line 28.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 28.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 28
-.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 2
+8.
 
-(C:/Users/Chef/AppData/Local/Programs/MiKTeX/tex/latex/base/ts1cmr.fd
+("C:/Users/justu/AppData/Local/Programs/MiKTeX 2.9/tex/latex/base/ts1cmr.fd"
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 28.
@@ -410,8 +398,8 @@ LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/cmr/bx/n --> TU/SegoeUI(0)/m/n on input line 28.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/SegoeUI(0)/m/n --> TU/SegoeUI(0)/m/n on input line 28
-.
+(Font)                  TU/SegoeUI(0)/m/n --> TU/SegoeUI(0)/m/n on input line 2
+8.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 (Font)                  OT1/cmr/m/it --> TU/SegoeUI(0)/m/it on input line 28.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
@@ -421,8 +409,8 @@ LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
 (Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 28.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/SegoeUI(0)/m/n --> TU/SegoeUI(0)/b/n on input line 28
-.
+(Font)                  TU/SegoeUI(0)/m/n --> TU/SegoeUI(0)/b/n on input line 2
+8.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> TU/SegoeUI(0)/b/it on input line 28.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
@@ -465,27 +453,27 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-(C:/Users/Chef/AppData/Local/Programs/MiKTeX/tex/context/base/mkii/supp-pdf.mki
-i
+("C:/Users/justu/AppData/Local/Programs/MiKTeX 2.9/tex/context/base/mkii/supp-p
+df.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count266
-\scratchdimen=\dimen172
-\scratchbox=\box52
-\nofMPsegments=\count267
-\nofMParguments=\count268
+\scratchcounter=\count271
+\scratchdimen=\dimen175
+\scratchbox=\box54
+\nofMPsegments=\count272
+\nofMParguments=\count273
 \everyMPshowfont=\toks26
-\MPscratchCnt=\count269
-\MPscratchDim=\dimen173
-\MPnumerator=\count270
-\makeMPintoPDFobject=\count271
+\MPscratchCnt=\count274
+\MPscratchDim=\dimen176
+\MPnumerator=\count275
+\makeMPintoPDFobject=\count276
 \everyMPtoPDFconversion=\toks27
 )
-(C:/Users/Chef/AppData/Local/Programs/MiKTeX/tex/latex/epstopdf-pkg/epstopdf-ba
-se.sty
+("C:/Users/justu/AppData/Local/Programs/MiKTeX 2.9/tex/latex/epstopdf-pkg/epsto
+pdf-base.sty"
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
-5.
-) ABD: EveryShipout initializing macros
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+)
 TextBlockOrigin set to 7mm x 12mm
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 47.
@@ -496,11 +484,11 @@ Overfull \hbox (258.69547pt too wide) in paragraph at lines 47--72
 [][] 
  []
 
-<VATGer-Logo-Colour.png, id=1, 1078.0275pt x 205.76875pt>
-File: VATGer-Logo-Colour.png Graphic file (type png)
-<use VATGer-Logo-Colour.png>
-Package luatex.def Info: VATGer-Logo-Colour.png  used on input line 76.
-(luatex.def)             Requested size: 170.71564pt x 32.58456pt.
+<VATGer-Logo-Colour.jpg, id=1, 156.3441pt x 35.4123pt>
+File: VATGer-Logo-Colour.jpg Graphic file (type jpg)
+<use VATGer-Logo-Colour.jpg>
+Package luatex.def Info: VATGer-Logo-Colour.jpg  used on input line 76.
+(luatex.def)             Requested size: 170.71564pt x 38.671pt.
 
 Overfull \hbox (180.02512pt too wide) in paragraph at lines 76--77
 [][] 
@@ -521,25 +509,25 @@ Overfull \hbox (152.59644pt too wide) in paragraph at lines 139--147
 [][] 
  []
 
-[1{C:/Users/Chef/AppData/Local/MiKTeX/pdftex/config/pdftex.map}
+[1{C:/Users/justu/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
-<./VATGer-Logo-Colour.png>] (./EDDF_TWR_QS.aux))
+<./VATGer-Logo-Colour.jpg>] (./EDDF_TWR_QS.aux))
 
 Here is how much of LuaTeX's memory you used:
- 8332 strings out of 481302
- 125171,552014 words of node,token memory allocated
+ 8125 strings out of 478819
+ 125007,662416 words of node,token memory allocated
  421 words of node memory still in use:
    3 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 1 glyph, 4 attribute, 51 glue_spec,
  4 attribute_list, 1 write nodes
-   avail lists: 1:1,2:4059,3:40,4:55,5:480,6:10,7:4580,8:2,9:2013,10:5,11:72
- 25335 multiletter control sequences out of 65536+200000
- 51 fonts using 15562987 bytes
- 44i,14n,81p,813b,239s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/WINDOWS/Fonts/segoeuib.ttf><C:/WINDOWS/Fonts/segoeuisl.ttf><C:/Users/Chef/Ap
-pData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on EDDF_TWR_QS.pdf (1 page, 76244 bytes).
+   avail lists: 2:4050,3:80,4:110,5:926,6:18,7:9168,8:2,9:4034,10:5,11:144
+ 27553 multiletter control sequences out of 65536+200000
+ 49 fonts using 14952271 bytes
+ 81i,14n,85p,813b,241s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/WINDOWS/Fonts/segoeuib.ttf><C:/WINDOWS/Fonts/segoeuisl.ttf><C:/Users/justu/A
+ppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on EDDF_TWR_QS.pdf (1 page, 81804 bytes).
 
-PDF statistics: 26 PDF objects out of 1000 (max. 8388607)
+PDF statistics: 25 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 131072)
  1 words of extra memory for PDF output out of 10000 (max. 100000000)
 
