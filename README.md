@@ -1,7 +1,7 @@
 # Quicksheet-for-TWR-VATSIM-ATC
 
-Hier sind Quicksheets ausschließlich für die TWR Position von EDDF, EDDS.
-Diese Quicksheets sind allerdings für TWR only gedacht und auch mehr auf Anfänger ausgelegt.
+Dies sind Quicksheets zum Controllen von EDDF und EDDS.
+Diese Quicksheets sind allerdings für TWR gedacht und auch mehr auf Anfänger ausgelegt.
 
 ---------------------------------------------------------------------------------------------
 These are Quicksheets to Control TWR Positons for EDDF and EDDS.
