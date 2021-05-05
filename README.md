@@ -12,8 +12,8 @@ Inhalt / context:
 - Wake turbulence table for all Types
 - Airspace D VFR Weather conditions
 - no EDUU Stations as Frequencies
-- Departures sorted by North and South verticaly
-- RWY Dependecies
+- Departures sorted by North and South verticaly 
+- RWY Dependecies (EDDF)
 
 Have Fun! ;-)
 
