@@ -1,0 +1,123 @@
+\documentclass[10pt,landscape,a4paper]{article}
+\usepackage{fontspec}
+\setmainfont{Segoe UI}
+\usepackage{multirow}
+\usepackage[utf8]{inputenc}
+\usepackage[landscape,top=0cm,bottom=1cm,right=1cm,left=0cm,noheadfoot,bindingoffset=0pt,marginparwidth=0pt,marginparsep=0pt]{geometry}
+\pagestyle{empty}
+\usepackage{float}
+\usepackage{graphicx}
+\usepackage[absolute]{textpos}
+\usepackage{array}
+\usepackage[table]{xcolor}
+\usepackage{booktabs}
+\usepackage{colortbl}
+\usepackage{babel}
+\usepackage[en-US]{datetime2}
+
+
+
+\newlength{\Oldarrayrulewidth}
+\newcommand{\Cline}[2]{%
+  \noalign{\global\setlength{\Oldarrayrulewidth}{\arrayrulewidth}}%
+  \noalign{\global\setlength{\arrayrulewidth}{#1}}\cline{#2}%
+  \noalign{\global\setlength{\arrayrulewidth}{\Oldarrayrulewidth}}}
+
+
+\title{EDFF}
+\author{Julian Schallenkammer ,Paul à Brassard}
+\date{\today}
+
+\begin{document}
+
+\setlength\extrarowheight{1pt}
+
+\setlength{\TPHorizModule}{1mm}
+\setlength{\TPVertModule}{\TPHorizModule}
+\textblockorigin{7mm}{12mm}
+
+\begin{textblock}{2}(210, 0)
+  \includegraphics[width=30\textwidth]{VATGer-Logo-Colour}
+\end{textblock}
+
+
+\begin{textblock}{100}(100, 0)
+  \large
+  \centering
+  EDFF Quicksheet
+
+ \DTMlangsetup{showdayofmonth=true}
+  \today
+\end{textblock}
+
+
+
+\begin{textblock}{100}(0, 15)
+\begin{table}[]
+\begin{tabular}{|llllll}
+\multicolumn{6}{c}{\textbf{EDDR-Saarbrücken}} \\ \hline
+\multicolumn{1}{|l|}{RWY} 									& \multicolumn{1}{c|}{\textbf{27}} 				& \multicolumn{1}{c|}{\textbf{09}}  				& \multicolumn{1}{c|}{\textbf{Cb}} 						& \multicolumn{1}{c|}{\textbf{Station}} 	& \multicolumn{1}{c|}{\textbf{Freq}}\\ \hline
+\multicolumn{1}{|l|}{\textbf{TOMPI (N)}}							& \multicolumn{1}{l|}{\textbf{1M} 1N}				& \multicolumn{1}{l|}{\textbf{1L} 1K} 				& \multicolumn{1}{c|}{\multirow{4}{*}{\rotatebox{90}{4000ft}}}		& \multicolumn{1}{c|}{APP}		& \multicolumn{1}{c|}{129.670}\\
+\multicolumn{1}{|l|}{} 										& \multicolumn{1}{l|}{\textbf{4W\textcolor{blue}{*}}}	& \multicolumn{1}{l|}{\textbf{6E\textcolor{blue}{*}}}	& \multicolumn{1}{c|}{}  								& \multicolumn{1}{c|}{TWR}		& \multicolumn{1}{c|}{118.350} \\ \cline{1-3}
+
+\multicolumn{1}{|l|}{\textbf{ZWM (E)}} 							& \multicolumn{1}{l|}{\textbf{1M}} 				& \multicolumn{1}{l|}{\textbf{1L}}				& \multicolumn{1}{c|}{} 								& \multicolumn{1}{c|}{ATIS} 		& \multicolumn{1}{c|}{125.300} \\ \cline{5-6}
+\multicolumn{1}{|l|}{-Zweibrücken}								& \multicolumn{1}{l|}{\textbf{5W\textcolor{blue}{*}}}	& \multicolumn{1}{l|}{\textbf{8E\textcolor{blue}{*}}}	& \multicolumn{1}{c|}{} 								& \multicolumn{2}{c|}{Approaches}\\ \hline
+
+\multicolumn{1}{|l|}{\textbf{GTQ (S)}} 								& \multicolumn{1}{l|}{\textbf{1M}}				& \multicolumn{1}{l|}{\textbf{1L}}				& \multicolumn{1}{c|}{\multirow{2}{*}{\rotatebox{90}{FL80}}}		& \multicolumn{1}{c|}{27}& \multicolumn{1}{c|}{09} \\
+\multicolumn{1}{|l|}{-Grostenquin} 								& \multicolumn{1}{l|}{\textbf{9W}} 				& \multicolumn{1}{l|}{\textbf{1E}}				& \multicolumn{1}{c|}{}  								& \multicolumn{1}{c|}{ILS}& \multicolumn{1}{c|}{VOR}\\ \hline
+\end{tabular}
+\end{table}
+\end{textblock}
+
+\begin{textblock}{100}(95, 15)
+\begin{table}[]
+\begin{tabular}{|llllll}
+\multicolumn{6}{c}{\textbf{EDDG-Münster}} \\ \hline
+\multicolumn{1}{|l|}{RWY} 									& \multicolumn{1}{c|}{\textbf{25}} 				& \multicolumn{1}{c|}{\textbf{07}}  				& \multicolumn{1}{c|}{\textbf{Cb}} 						& \multicolumn{1}{c|}{\textbf{Station}} 	& \multicolumn{1}{c|}{\textbf{Freq}}\\ \hline
+\multicolumn{1}{|l|}{\textbf{DOMEG (S)}}							& \multicolumn{1}{l|}{\textbf{2C} 2Z}				& \multicolumn{1}{l|}{\textbf{3E} 2Y} 				& \multicolumn{1}{c|}{\multirow{6}{*}{\rotatebox{90}{5000ft}}}		& \multicolumn{1}{c|}{APP}		& \multicolumn{1}{c|}{129.300}\\
+\multicolumn{1}{|l|}{\textbf{HMM- Hamm (S)}}						& \multicolumn{1}{l|}{\textbf{1Z}}				& \multicolumn{1}{l|}{\textbf{3Y}}				& \multicolumn{1}{c|}{}  								& \multicolumn{1}{c|}{TWR}		& \multicolumn{1}{c|}{118.350} \\ \cline{1-3}
+
+\multicolumn{1}{|l|}{\textbf{OSN (E)}} 								& \multicolumn{1}{l|}{\textbf{2C} } 				& \multicolumn{1}{l|}{\textbf{9E}}				& \multicolumn{1}{c|}{} 								& \multicolumn{1}{c|}{GND} 		& \multicolumn{1}{c|}{121.870} \\ \cline{5-6}
+\multicolumn{1}{|l|}{-Osnabrück}								& \multicolumn{1}{l|}{9X}						& \multicolumn{1}{l|}{}						& \multicolumn{1}{c|}{} 								& \multicolumn{2}{c|}{Approaches}						\\ \hline
+
+\multicolumn{1}{|l|}{\textbf{RKN (W)}} 							& \multicolumn{1}{l|}{\textbf{1C}}				& \multicolumn{1}{l|}{2E}						& \multicolumn{1}{c|}{}								& \multicolumn{1}{c|}{25}& \multicolumn{1}{c|}{07} 				\\
+\multicolumn{1}{|l|}{-Rekken} 									& \multicolumn{1}{l|}{\textbf{}} 					& \multicolumn{1}{l|}{\textbf{9Y}}				& \multicolumn{1}{c|}{}  								& \multicolumn{1}{c|}{ILS}& \multicolumn{1}{c|}{ILS}\\ \hline
+\end{tabular}
+\end{table}
+\end{textblock}
+
+
+
+
+
+
+\begin{textblock}{100}(216,13)
+\begin{table}[]
+\begin{tabular}{|l|}
+\multicolumn{1}{c}{\textbf{VFR Airspace D}} \\ \hline
+ Flugsicht 5km   \\ \hline
+Frei von Wolken   \\ \hline
+Hauptwolkenuntergrenze 1500ft \\ \hline
+Bodensicht 5 km \\ \hline
+\end{tabular}
+\end{table}
+\end{textblock}
+
+\begin{textblock}{100}(216, 40)
+\begin{table}[]
+\begin{tabular}{|l|l|l|}
+\multicolumn{3}{c}{\textbf{Wake Turbulence}} \\ \hline
+ M  & L  & 5NM   \\ \hline
+ M  & M, H, J  & 3NM   \\ \hline
+ H  & L & 6NM   \\ \hline
+ H  & M & 5NM   \\ \hline
+ H  & H, J & 4NM \\ \hline
+ J &  L & 8NM \\ \hline
+ J &  M & 7NM \\ \hline
+ J &  H, J  & 6 NM   \\ \hline
+\end{tabular}
+\end{table}
+\end{textblock}
+
+
+\end{document}
