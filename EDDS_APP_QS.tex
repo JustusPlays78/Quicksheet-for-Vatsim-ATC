@@ -1,0 +1,310 @@
+\documentclass[10pt,landscape,a4paper]{article}
+\usepackage{fontspec}
+\setmainfont{Segoe UI}
+\usepackage{multirow}
+\usepackage[utf8]{inputenc}
+\usepackage[landscape,top=0cm,bottom=1cm,right=1cm,left=0cm,noheadfoot,bindingoffset=0pt,marginparwidth=0pt,marginparsep=0pt]{geometry}
+\pagestyle{empty}
+\usepackage{float}
+\usepackage{graphicx}
+\usepackage[absolute]{textpos}
+\usepackage{array}
+\usepackage[table]{xcolor}
+\usepackage{booktabs}
+\usepackage{colortbl}
+\usepackage{babel}
+\usepackage[en-US]{datetime2}
+
+
+
+\newlength{\Oldarrayrulewidth}
+\newcommand{\Cline}[2]{%
+  \noalign{\global\setlength{\Oldarrayrulewidth}{\arrayrulewidth}}%
+  \noalign{\global\setlength{\arrayrulewidth}{#1}}\cline{#2}%
+  \noalign{\global\setlength{\arrayrulewidth}{\Oldarrayrulewidth}}}
+
+
+\title{EDDS}
+\author{Julian Schallenkammer ,Paul à Brassard}
+\date{\today}
+
+\begin{document}
+
+\setlength\extrarowheight{1pt}
+
+\setlength{\TPHorizModule}{1mm}
+\setlength{\TPVertModule}{\TPHorizModule}
+\textblockorigin{7mm}{12mm}
+
+
+\begin{textblock}{100}(100, 0)
+  \large
+  \centering
+  EDDS APP Quicksheet (unfinished)
+
+ \DTMlangsetup{showdayofmonth=true}
+  \today
+\end{textblock}
+
+
+\begin{textblock}{40}(0,15)
+\begin{table}[]
+\begin{tabular}{lcccccccccccccc}
+& \multicolumn{6}{c}{\textbf{North departures}} & \multicolumn{7}{c}{\textbf{South departures}}                                                                                                                                                                                                                                                                                                                                             & \multicolumn{1}{l}{} \\ \hline
+\multicolumn{1}{|l|}{SID} & 
+\multicolumn{1}{c|}{KRH} & 
+\multicolumn{1}{c|}{VESID} & 
+\multicolumn{1}{c|}{TAGIK} & 
+\multicolumn{1}{c|}{ETASA} & 
+\multicolumn{1}{c|}{OKIBA} & 
+\multicolumn{1}{c|}{GEBNO} & 
+\multicolumn{1}{c||}{DKB} & 
+\multicolumn{1}{c|}{ABTAL} & 
+\multicolumn{1}{c|}{KUNOD} & 
+\multicolumn{1}{c|}{SUL} & 
+\multicolumn{1}{c|}{ROTWE} & 
+\multicolumn{1}{c|}{TEDGO} & 
+\multicolumn{1}{c|}{STG} & 
+\multicolumn{1}{c|}{\multirow{10}{*}{\rotatebox{90}{\textbf{5000 ft}}}} \\ \cline{1-14}
+\multicolumn{1}{|l|}{RFL} & 
+\multicolumn{1}{l|}{even} & 
+\multicolumn{1}{l|}{even} & 
+\multicolumn{1}{l|}{even} & 
+\multicolumn{1}{l|}{even} & 
+\multicolumn{1}{l|}{even} & 
+\multicolumn{1}{l|}{even} & 
+\multicolumn{1}{l||}{odd} & 
+\multicolumn{1}{l|}{odd} & 
+\multicolumn{1}{l|}{odd} & 
+\multicolumn{1}{l|}{odd} & 
+\multicolumn{1}{l|}{odd LS} &
+\multicolumn{1}{l|}{odd} &
+\multicolumn{1}{l|}{odd} &
+\multicolumn{1}{r|}{} \\ \cline{1-14}
+\multicolumn{1}{|l|}{} & 
+\multicolumn{1}{r|}{\scriptsize \textless{}FL85} & 
+\multicolumn{1}{r|}{} & 
+\multicolumn{1}{r|}{\scriptsize \textless{}FL245} & 
+\multicolumn{1}{r|}{} & 
+\multicolumn{1}{r|}{\scriptsize \textgreater{}FL195} &
+\multicolumn{1}{r|}{\scriptsize \textgreater{}FL185} & 
+\multicolumn{1}{r||}{} & 
+\multicolumn{1}{r|}{} & 
+\multicolumn{1}{r|}{} & 
+\multicolumn{1}{r|}{} & 
+\multicolumn{1}{l|}{even LF} & 
+\multicolumn{1}{l|}{} & 
+\multicolumn{1}{l|}{} & 
+\multicolumn{1}{c|}{} \\ \cline{1-14}
+\multicolumn{1}{|l|}{\textbf{25}} & 
+\multicolumn{1}{c|}{\textbf{5B\textcolor{red}{*}}} & 
+\multicolumn{1}{c|}{\textbf{4B\textcolor{red}{*}}} & 
+\multicolumn{1}{c|}{\textbf{4B\textcolor{red}{*}}} &  
+\multicolumn{1}{c|}{\textbf{4B\textcolor{red}{*}}} & 
+\multicolumn{1}{c|}{\textbf{4B\textcolor{red}{*}}} & 
+\multicolumn{1}{c|}{\textbf{7B\textcolor{red}{*}}} &  
+\multicolumn{1}{c||}{\textbf{9B\textcolor{red}{*}}} &  
+\multicolumn{1}{c|}{\textbf{4B\textcolor{red}{*}}} & 
+\multicolumn{1}{c|}{\textbf{2B\textcolor{red}{*}}} & 
+\multicolumn{1}{c|}{\textbf{3B}} &  
+\multicolumn{1}{c|}{\textbf{5B}} &  
+\multicolumn{1}{c|}{\textbf{1B\textcolor{red}{*}}} &  
+\multicolumn{1}{c|}{\textbf{1B\textcolor{red}{*}}} &  
+\multicolumn{1}{c|}{} \\ \cline{1-14}
+\multicolumn{1}{|l|}{\textbf{07}} & 
+\multicolumn{1}{c|}{\textbf{2H}}&
+\multicolumn{1}{c|}{\textbf{2H}} & 
+\multicolumn{1}{c|}{\textbf{2H}}&
+\multicolumn{1}{c|}{\textbf{2H}} & 
+\multicolumn{1}{c|}{\textbf{4H}}&
+\multicolumn{1}{c|}{\textbf{6H}}&
+\multicolumn{1}{c||}{\textbf{4H}}&
+\multicolumn{1}{c|}{\textbf{4H}} & 
+\multicolumn{1}{c|}{\textbf{2H\textcolor{red}{*}}} & 
+\multicolumn{1}{c|}{\textbf{3H\textcolor{red}{*}}} & 
+\multicolumn{1}{c|}{\textbf{7H\textcolor{red}{*}}} & 
+\multicolumn{1}{c|}{\textbf{2H\textcolor{red}{*}}} & 
+\multicolumn{1}{c|}{\textbf{2H}} &
+\multicolumn{1}{c|}{} \\ \cline{1-14}
+\multicolumn{1}{|l|}{} & 
+\multicolumn{1}{l|}{\scriptsize \begin{tabular}[c]{@{}l@{}}EDDR\\ EDRZ\\ EDSB \\ ETAR\end{tabular}} & 
+\multicolumn{1}{l|}{\scriptsize \begin{tabular}[c]{@{}l@{}}\end{tabular}} & 
+\multicolumn{1}{l|}{\scriptsize \begin{tabular}[c]{@{}l@{}}only via \\ABUMO \\ASKIK\end{tabular}} & 
+\multicolumn{1}{l|}{\scriptsize \begin{tabular}[c]{@{}l@{}}EDDF\\EDFC \\EDFE \\ETOU\end{tabular}} & 
+\multicolumn{1}{l|}{\scriptsize \begin{tabular}[c]{@{}l@{}}\end{tabular}} & 
+\multicolumn{1}{l|}{\scriptsize \begin{tabular}[c]{@{}l@{}}only via \\Z76\end{tabular}} & 
+\multicolumn{1}{l||}{\scriptsize \begin{tabular}[c]{@{}l@{}}only\\N869 \\EDDN \\EDTY \\EDQ*\end{tabular}} & 
+\multicolumn{1}{l|}{\scriptsize \begin{tabular}[c]{@{}l@{}}\end{tabular}} & 
+\multicolumn{1}{l|}{\scriptsize \begin{tabular}[c]{@{}l@{}}\end{tabular}} & 
+\multicolumn{1}{l|}{\scriptsize \begin{tabular}[c]{@{}l@{}}Prop,\\ Jet only\\ EDNY \\ EDTL \\LSZH\\ LSZR\end{tabular}} & 
+\multicolumn{1}{l|}{\scriptsize \begin{tabular}[c]{@{}l@{}}via \\NATOR \\No Prop \\-->SUL\end{tabular}} & 
+\multicolumn{1}{l|}{\scriptsize \begin{tabular}[c]{@{}l@{}}local IFR, \\ETHL\end{tabular}} & 
+\multicolumn{1}{l|}{\scriptsize \begin{tabular}[c]{@{}l@{}}local IFR\end{tabular}} & 
+\multicolumn{1}{c|}{} \\ \hline
+
+\multicolumn{2}{|l}{Handoff} & 
+\multicolumn{6}{c||}{\textunderscore{}N\textunderscore{}APP / SN} & 
+\multicolumn{4}{c|}{\textunderscore{}S\textunderscore{}APP / SS} & 
+\multicolumn{2}{c|}{\textunderscore{}F\textunderscore{}APP / SF} & 
+\multicolumn{1}{l}{} \\ \cline{1-14}
+\multicolumn{8}{l}{\textcolor{red}{\textbf{*}} = \color{red}Climb via SID} \\
+\multicolumn{8}{l}{Departure: 5NM (North/South)}
+\end{tabular}
+\end{table}
+\end{textblock}
+
+\begin{textblock}{100}(200,15)
+\begin{table}[]
+\begin{tabular}{lllll}
+\multicolumn{4}{c}{\textbf{Communication}}                                                                                                                          \\ \hline
+\multicolumn{1}{|l|}{\multirow{4}{*}{\rotatebox{90}{GND}}} & \multicolumn{1}{l|}{XS} & \multicolumn{1}{l|}{\textunderscore{}ATIS}          & \multicolumn{1}{l|}{126.125}          & \multicolumn{1}{l|}{ATIS}                   \\
+\multicolumn{1}{|l|}{}                    & \multicolumn{1}{l|}{SC}  & \multicolumn{1}{l|}{\textunderscore{}DEL}          & \multicolumn{1}{l|}{121.900}            & \multicolumn{1}{l|}{Delivery}               \\
+\multicolumn{1}{|l|}{}                     & \multicolumn{1}{l|}{\textbf{SG}}  & \multicolumn{1}{l|}{\textbf{\textunderscore{}GND}}          & \multicolumn{1}{l|}{\textbf{118.600}}            & \multicolumn{1}{l|}{\textbf{Ground}}                 \\ \hline
+\multicolumn{1}{|l|}{\multirow{2,5}{*}{\rotatebox{90}{TWR}}} & \multicolumn{1}{l|}{\textbf{ST}}  & \multicolumn{1}{l|}{\textbf{\textunderscore{}TWR}} & \multicolumn{1}{l|}{\textbf{118.800}}   & \multicolumn{1}{l|}{\textbf{Tower}}         \\ 
+\multicolumn{1}{|l|}{}                    & \multicolumn{1}{l|}{S2}  & \multicolumn{1}{l|}{\textunderscore{}2\textunderscore{}TWR}          & \multicolumn{1}{l|}{119.050}            & \multicolumn{1}{l|}{VFR Tower}               \\ \hline
+\multicolumn{1}{|l|}{\multirow{3,5}{*}{\rotatebox{90}{APP}}}  & \multicolumn{1}{l|}{\textbf{SN}} & \multicolumn{1}{l|}{\textbf{\textunderscore{}N\textunderscore{}APP}} & \multicolumn{1}{l|}{\textbf{125.050}} & \multicolumn{1}{l|}{\textbf{STG}} \\
+\multicolumn{1}{|l|}{}                     & \multicolumn{1}{l|}{SS}  & \multicolumn{1}{l|}{\textunderscore{}S\textunderscore{}APP}          & \multicolumn{1}{l|}{119.200}            & \multicolumn{1}{l|}{RTL}         \\
+\multicolumn{1}{|l|}{}                     & \multicolumn{1}{l|}{SF}  & \multicolumn{1}{l|}{\textunderscore{}F\textunderscore{}APP}          & \multicolumn{1}{l|}{119.850}            & \multicolumn{1}{l|}{Feeder}         \\ \hline
+\multicolumn{1}{|l|}{\multirow{8}{*}{\rotatebox{90}{CTR}}} & \multicolumn{1}{l|}{GC}  & \multicolumn{1}{l|}{\textunderscore{}CTR}          & \multicolumn{1}{l|}{135.725}          & \multicolumn{1}{l|}{Groß Langen}              \\
+\multicolumn{1}{|l|}{}                     & \multicolumn{1}{l|}{\textbf{GK}}  & \multicolumn{1}{l|}{\textbf{\textunderscore{}K\textunderscore{}CTR}} & \multicolumn{1}{l|}{\textbf{123.275}} & \multicolumn{1}{l|}{\textbf{KTG}}  \\
+\multicolumn{1}{|l|}{}                     & \multicolumn{1}{l|}{\textbf{GG}}  & \multicolumn{1}{l|}{\textunderscore{}\textbf{G\textunderscore{}CTR}}          & \multicolumn{1}{l|}{\textbf{124.725}}           & \multicolumn{1}{l|}{\textbf{GIN}}             \\
+\multicolumn{1}{|l|}{}                     & \multicolumn{1}{l|}{\textbf{MZ}}  & \multicolumn{1}{l|}{\textunderscore{}\textbf{R}\textunderscore{}\textbf{CTR}}          & \multicolumn{1}{l|}{\textbf{134.150}}            & \multicolumn{1}{l|}{\textbf{MMZ}} \\
+\multicolumn{1}{|l|}{}                     & \multicolumn{1}{l|}{GP}  & \multicolumn{1}{l|}{\textunderscore{}P\textunderscore{}CTR}          & \multicolumn{1}{l|}{135.650}            & \multicolumn{1}{l|}{PADH}             \\
+\multicolumn{1}{|l|}{}                     & \multicolumn{1}{l|}{GD}  & \multicolumn{1}{l|}{\textunderscore{}D\textunderscore{}CTR}          & \multicolumn{1}{l|}{125.2}            & \multicolumn{1}{l|}{DKB}             \\
+\multicolumn{1}{|l|}{}                     & \multicolumn{1}{l|}{GR}  & \multicolumn{1}{l|}{\textunderscore{}R\textunderscore{}CTR}          & \multicolumn{1}{l|}{124.475}            & \multicolumn{1}{l|}{RUD}             \\
+\multicolumn{1}{|l|}{}                     & \multicolumn{1}{l|}{GB}  & \multicolumn{1}{l|}{\textunderscore{}B\textunderscore{}CTR}          & \multicolumn{1}{l|}{131.3}            & \multicolumn{1}{l|}{BAD}             \\ \hline
+\end{tabular}
+\end{table}
+\end{textblock}
+
+\begin{textblock}{100}(65, 67)
+\begin{table}[]
+\begin{tabular}{llllllll} 
+\multicolumn{6}{c}{\textbf{Holdings}}         & \multicolumn{2}{c}{\textbf{Precision Approach}}  \\ \hline
+\multicolumn{1}{|l|}{BADSO} & 
+\multicolumn{1}{l|}{LBU}   & 
+\multicolumn{1}{l|}{TEKSI} & 
+\multicolumn{1}{l|}{REUTL} &
+\multicolumn{1}{l|}{IBIRU} &
+\multicolumn{1}{l|}{STG} &
+\multicolumn{1}{l|}{25} &
+\multicolumn{1}{l|}{07} \\ \hline
+\multicolumn{1}{|l|}{7000} & 
+\multicolumn{1}{l|}{5000} & 
+\multicolumn{1}{l|}{6000} & 
+\multicolumn{1}{l|}{6000} &
+\multicolumn{1}{l|}{5000} &
+\multicolumn{1}{l|}{5000} & 
+\multicolumn{1}{l|}{109.90} & 
+\multicolumn{1}{l|}{109.50} \\ \hline
+\multicolumn{1}{|l|}{174$^\circ$ L} & 
+\multicolumn{1}{l|}{177$^\circ$ L} & 
+\multicolumn{1}{l|}{268$^\circ$ R} & 
+\multicolumn{1}{l|}{346$^\circ$ L} &
+\multicolumn{1}{l|}{346$^\circ$ L} &
+\multicolumn{1}{l|}{166$^\circ$ L} &
+ \multicolumn{1}{l|}{252$^\circ$} & 
+ \multicolumn{1}{l|}{072$^\circ$}\\ \hline
+\end{tabular}
+\end{table}
+\end{textblock}
+
+\begin{textblock}{100}(216,95)
+\begin{table}[]
+\begin{tabular}{|l|}
+\multicolumn{1}{c}{\textbf{VFR Airspace D}} \\ \hline
+ Flugsicht 5km   \\ \hline
+Frei von Wolken   \\ \hline
+Hauptwolkenuntergrenze 1500ft \\ \hline
+Bodensicht 5 km \\ \hline
+\end{tabular}
+\end{table}
+\end{textblock}
+
+\begin{textblock}{100}(0, 140)
+\begin{table}[]
+\begin{tabular}{|l|l|l|}
+\multicolumn{3}{c}{\textbf{Wake Turbulence}} \\ \hline
+ M  & L  & 5NM   \\ \hline
+ M  & M, H, J  & 3NM   \\ \hline
+ H  & L & 6NM   \\ \hline
+ H  & M & 5NM   \\ \hline
+ H  & H, J & 4NM \\ \hline
+ J &  L & 8NM \\ \hline
+ J &  M & 7NM \\ \hline
+ J &  H, J  & 6 NM   \\ \hline
+\end{tabular}
+\end{table}
+\end{textblock}
+
+\begin{textblock}{100}(0, 95)
+\begin{table}[]
+\begin{tabular}{|llllllll}
+\multicolumn{8}{c}{\textbf{EDSB-Badenbaden}} \\ \hline
+\multicolumn{1}{|l|}{RWY} 									
+& \multicolumn{1}{c|}{\textbf{21}} 			
+& \multicolumn{1}{c|}{\textbf{03}}  				
+& \multicolumn{1}{c|}{\textbf{Cb}} 						
+& \multicolumn{1}{c|}{\textbf{Station}} 	
+& \multicolumn{1}{c|}{\textbf{Freq}} 	
+& \multicolumn{2}{c|}{\textbf{Prec App}}\\ \hline
+
+\multicolumn{1}{|l|}{\textbf{GAGSI} (SE)}							
+& \multicolumn{1}{l|}{\textbf{5P\textcolor{red}{*}}}
+& \multicolumn{1}{l|}{\textbf{5N\textcolor{red}{*}}} 	
+& \multicolumn{1}{c|}{\multirow{6}{*}{\rotatebox{90}{FL70}}}		
+& \multicolumn{1}{c|}{CTR}			
+& \multicolumn{1}{c|}{123.275}	
+& \multicolumn{1}{c|}{21}
+& \multicolumn{1}{c|}{03}  \\ \cline{1-3}
+
+\multicolumn{1}{|l|}{RNAV}									
+& \multicolumn{1}{l|}{\textbf{1Z} }			
+& \multicolumn{1}{l|}{\textbf{1Y\textcolor{red}{*}}}	
+& \multicolumn{1}{c|}{}  								
+& \multicolumn{1}{c|}{APP}			
+& \multicolumn{1}{c|}{119.580}
+& \multicolumn{1}{c|}{108.75}
+& \multicolumn{1}{c|}{109.95}	\\ \cline{1-3}
+
+\multicolumn{1}{|l|}{\textbf{STRASBOURG} (SW)} 						
+& \multicolumn{1}{l|}{\textbf{6P}} 			
+& \multicolumn{1}{l|}{\textbf{}}					
+& \multicolumn{1}{c|}{} 								
+& \multicolumn{1}{c|}{APP} 			
+& \multicolumn{1}{c|}{125.050}
+& \multicolumn{1}{c|}{210$^\circ$}
+& \multicolumn{1}{c|}{030$^\circ$}	\\ \cline{1-3}
+
+\multicolumn{1}{|l|}{RNAV}									
+& \multicolumn{1}{l|}{\textbf{1Z}}			
+& \multicolumn{1}{l|}{\textbf{1Y\textcolor{red}{*}}}		
+& \multicolumn{1}{c|}{} 							
+& \multicolumn{1}{c|}{TWR}			
+& \multicolumn{1}{c|}{134.105}	
+& \multicolumn{1}{c|}{BITSU}
+& \multicolumn{1}{c|}{RENBO}	\\ \cline{1-3} \cline{7-8}
+
+\multicolumn{1}{|l|}{\textbf{TUBLO} (S)} 							
+& \multicolumn{1}{l|}{}					
+& \multicolumn{1}{l|}{\textbf{9N\textcolor{red}{*}}}	
+& \multicolumn{1}{c|}{}								
+& \multicolumn{1}{c|}{GND}			
+& \multicolumn{1}{c|}{121.835}
+& \multicolumn{1}{c|}{RNP}
+& \multicolumn{1}{c|}{RNP} 	\\\cline{1-3} \cline{5-6}
+
+\multicolumn{1}{|l|}{RNAV} 									
+& \multicolumn{1}{l|}{\textbf{1Z}} 			
+& \multicolumn{1}{l|}{\textbf{1Y\textcolor{red}{*}}}	
+& \multicolumn{1}{c|}{}  								
+& \multicolumn{2}{c|}{}
+& \multicolumn{2}{c|}{}	\\ \hline
+\end{tabular}
+\end{table}
+\end{textblock}
+
+
+
+
+\end{document}
