@@ -1,6 +1,4 @@
 \documentclass[10pt,landscape,a4paper]{article}
-\usepackage{fontspec}
-\setmainfont{Segoe UI}
 \usepackage{multirow}
 \usepackage[utf8]{inputenc}
 \usepackage[landscape,top=0cm,bottom=1cm,right=1cm,left=0cm,noheadfoot,bindingoffset=0pt,marginparwidth=0pt,marginparsep=0pt]{geometry}
@@ -46,12 +44,13 @@
   \today
 \end{textblock}
 
-\begin{textblock}{100}(216, 0)
+\begin{textblock}{100}(200, 0)
 \begin{table}[]
 \begin{tabular}{|llllll}
-\multicolumn{2}{c}{\textbf{Legnde}} \\ \hline
-\multicolumn{1}{|l|}{\textbf{\textcolor{blue}{*}}} 							& \multicolumn{1}{c|}{climb via SID} 		\\ \hline
-\multicolumn{1}{|l|}{\textbf{\textcolor{orange}{*}}}						& \multicolumn{1}{l|}{climb }			\\ \hline
+\multicolumn{4}{c}{\textbf{Legnde}} \\ \hline
+\multicolumn{1}{|l|}{\textbf{\textcolor{blue}{*}}} 				& \multicolumn{1}{c|}{climb via SID} 	& \multicolumn{1}{|l|}{\textbf{\textcolor{green}{*}}}				& \multicolumn{1}{l|}{RNAV }			\\ \hline
+\multicolumn{1}{|l|}{\textbf{\textcolor{orange}{*}}}			& \multicolumn{1}{l|}{climb }		& \multicolumn{1}{|l|}{\textbf{\textcolor{red}{*}}}						& \multicolumn{1}{l|}{non-RNAV }	\\ \hline
+		
 
 \end{tabular}
 \end{table}
@@ -62,16 +61,16 @@
 \begin{textblock}{100}(0, 15)
 \begin{table}[]
 \begin{tabular}{|llllll}
-\multicolumn{6}{c}{\textbf{EDDR-Saarbrücken}} \\ \hline
-\multicolumn{1}{|l|}{RWY} 									& \multicolumn{1}{c|}{\textbf{27}} 				& \multicolumn{1}{c|}{\textbf{09}}  				& \multicolumn{1}{c|}{\textbf{Cb}} 						& \multicolumn{1}{c|}{\textbf{Station}} 	& \multicolumn{1}{c|}{\textbf{Freq}}\\ \hline
-\multicolumn{1}{|l|}{\textbf{TOMPI\textcolor{blue}{*}} (N)}				& \multicolumn{1}{l|}{\textbf{1M} 1N}				& \multicolumn{1}{l|}{\textbf{1L} 1K} 				& \multicolumn{1}{c|}{\multirow{4}{*}{\rotatebox{90}{4000ft}}}		& \multicolumn{1}{c|}{APP}		& \multicolumn{1}{c|}{129.670}\\
-\multicolumn{1}{|l|}{} 										& \multicolumn{1}{l|}{4W}						& \multicolumn{1}{l|}{6E}						& \multicolumn{1}{c|}{}  								& \multicolumn{1}{c|}{TWR}		& \multicolumn{1}{c|}{118.350} \\ \cline{1-3}
+\multicolumn{5}{c}{\textbf{EDDR-Saarbrücken}} \\ \hline
+\multicolumn{1}{|l|}{RWY} 									& \multicolumn{1}{c|}{\textbf{27}} 				& \multicolumn{1}{c|}{\textbf{09}}  				& \multicolumn{1}{c|}{\textbf{Cb}} 			&	\multicolumn{1}{c|}{\textbf{ETC}}	\\ \hline
+\multicolumn{1}{|l|}{\textbf{TOMPI\textcolor{blue}{*}} (N)}				& \multicolumn{1}{l|}{\textbf{1M} 1N}				& \multicolumn{1}{l|}{\textbf{1L} 1K} 				& \multicolumn{1}{c|}{\multirow{4}{*}{\rotatebox{90}{4000ft}}}	&	\multicolumn{1}{c|}{M, K, L\textcolor{green}{*}}	\\
+\multicolumn{1}{|l|}{} 										& \multicolumn{1}{l|}{4W}						& \multicolumn{1}{l|}{6E}						& \multicolumn{1}{c|}{}  							&	\multicolumn{1}{c|}{W, E\textcolor{red}{*}}		\\ \cline{1-3}
 
-\multicolumn{1}{|l|}{\textbf{ZWM} (E)} 							& \multicolumn{1}{l|}{\textbf{1M\textcolor{blue}{*}}} 	& \multicolumn{1}{l|}{\textbf{1L}}				& \multicolumn{1}{c|}{} 								& \multicolumn{1}{c|}{ATIS} 		& \multicolumn{1}{c|}{125.300} \\ \cline{5-6}
-\multicolumn{1}{|l|}{-Zweibrücken}								& \multicolumn{1}{l|}{5W\textcolor{blue}{*}}			& \multicolumn{1}{l|}{8E}						& \multicolumn{1}{c|}{} 								& \multicolumn{2}{c|}{ETC}\\ \hline
+\multicolumn{1}{|l|}{\textbf{ZWM} (E)} 							& \multicolumn{1}{l|}{\textbf{1M\textcolor{blue}{*}}} 	& \multicolumn{1}{l|}{\textbf{1L}}				& \multicolumn{1}{c|}{} 							&	\multicolumn{1}{c|}{}	\\
+\multicolumn{1}{|l|}{-Zweibrücken}								& \multicolumn{1}{l|}{5W\textcolor{blue}{*}}			& \multicolumn{1}{l|}{8E}						& \multicolumn{1}{c|}{} 							&	\multicolumn{1}{c|}{}	\\ \cline{1-4}
 
-\multicolumn{1}{|l|}{\textbf{GTQ\textcolor{blue}{*}} (S)} 					& \multicolumn{1}{l|}{\textbf{1M}}				& \multicolumn{1}{l|}{\textbf{1L}}				& \multicolumn{1}{c|}{\multirow{2}{*}{\rotatebox{90}{FL80}}}		& \multicolumn{2}{c|}{} \\
-\multicolumn{1}{|l|}{-Grostenquin} 								& \multicolumn{1}{l|}{9W} 					& \multicolumn{1}{l|}{1E}						& \multicolumn{1}{c|}{}  								& \multicolumn{2}{c|}{}\\ \hline
+\multicolumn{1}{|l|}{\textbf{GTQ\textcolor{blue}{*}} (S)} 					& \multicolumn{1}{l|}{\textbf{1M}}				& \multicolumn{1}{l|}{\textbf{1L}}				& \multicolumn{1}{c|}{\multirow{2}{*}{\rotatebox{90}{FL80}}}	&	\multicolumn{1}{c|}{}	\\ 
+\multicolumn{1}{|l|}{-Grostenquin} 								& \multicolumn{1}{l|}{9W} 					& \multicolumn{1}{l|}{1E}						& \multicolumn{1}{c|}{}  							&	\multicolumn{1}{c|}{}	\\ \hline
 \end{tabular}
 \end{table}
 \end{textblock}
@@ -80,16 +79,16 @@
 \begin{textblock}{100}(95, 15)
 \begin{table}[]
 \begin{tabular}{|llllll}
-\multicolumn{6}{c}{\textbf{EDDG-Münster}} \\ \hline
-\multicolumn{1}{|l|}{RWY} 									& \multicolumn{1}{c|}{\textbf{25}} 			& \multicolumn{1}{c|}{\textbf{07}}  				& \multicolumn{1}{c|}{\textbf{Cb}} 						& \multicolumn{1}{c|}{\textbf{Station}} 	& \multicolumn{1}{c|}{\textbf{Freq}}\\ \hline
-\multicolumn{1}{|l|}{\textbf{DOMEG} (S)}							& \multicolumn{1}{l|}{\textbf{2C} 2Z\textcolor{blue}{*}}			& \multicolumn{1}{l|}{\textbf{3E} 2Y\textcolor{blue}{*}} 				& \multicolumn{1}{c|}{\multirow{6}{*}{\rotatebox{90}{5000ft}}}		& \multicolumn{1}{c|}{APP}		& \multicolumn{1}{c|}{129.300}\\
-\multicolumn{1}{|l|}{\textbf{HMM}- Hamm (S)}						& \multicolumn{1}{l|}{\textbf{1Z}}			& \multicolumn{1}{l|}{\textbf{3Y}}				& \multicolumn{1}{c|}{}  								& \multicolumn{1}{c|}{TWR}		& \multicolumn{1}{c|}{118.350} \\ \cline{1-3}
+\multicolumn{4}{c}{\textbf{EDDG-Münster}} \\ \hline
+\multicolumn{1}{|l|}{RWY} 									& \multicolumn{1}{c|}{\textbf{25}} 			& \multicolumn{1}{c|}{\textbf{07}}  				& \multicolumn{1}{c|}{\textbf{Cb}} 						\\ \hline
+\multicolumn{1}{|l|}{\textbf{DOMEG} (S)}							& \multicolumn{1}{l|}{\textbf{2C} 2Z\textcolor{blue}{*}}			& \multicolumn{1}{l|}{\textbf{3E} 2Y\textcolor{blue}{*}} 				& \multicolumn{1}{c|}{\multirow{6}{*}{\rotatebox{90}{5000ft}}}		\\
+\multicolumn{1}{|l|}{\textbf{HMM}- Hamm (S)}						& \multicolumn{1}{l|}{\textbf{1Z}}			& \multicolumn{1}{l|}{\textbf{3Y}}				& \multicolumn{1}{c|}{}  								\\ \cline{1-3}
 
-\multicolumn{1}{|l|}{\textbf{OSN} (E)} 								& \multicolumn{1}{l|}{\textbf{2C} } 			& \multicolumn{1}{l|}{\textbf{9E}}				& \multicolumn{1}{c|}{} 								& \multicolumn{1}{c|}{GND} 		& \multicolumn{1}{c|}{121.870} \\ \cline{5-6}
-\multicolumn{1}{|l|}{-Osnabrück}								& \multicolumn{1}{l|}{9X}					& \multicolumn{1}{l|}{}						& \multicolumn{1}{c|}{} 								& \multicolumn{2}{c|}{ETC}							\\ \cline{1-3} \cline{5-6}
+\multicolumn{1}{|l|}{\textbf{OSN} (E)} 								& \multicolumn{1}{l|}{\textbf{2C} } 			& \multicolumn{1}{l|}{\textbf{9E}}				& \multicolumn{1}{c|}{} 								 \\ \cline{5-6}
+\multicolumn{1}{|l|}{-Osnabrück}								& \multicolumn{1}{l|}{9X}					& \multicolumn{1}{l|}{}						& \multicolumn{1}{c|}{} 								\\ \cline{1-3} \cline{5-6}
 
-\multicolumn{1}{|l|}{\textbf{RKN} (W)} 							& \multicolumn{1}{l|}{\textbf{1C}}			& \multicolumn{1}{l|}{2E}						& \multicolumn{1}{c|}{}								& \multicolumn{2}{c|}{RNAV 2Y and 2Z }			\\
-\multicolumn{1}{|l|}{-Rekken} 									& \multicolumn{1}{l|}{\textbf{}} 				& \multicolumn{1}{l|}{\textbf{9Y}}				& \multicolumn{1}{c|}{}  								& \multicolumn{2}{c|}{--> no restriction}\\ \hline
+\multicolumn{1}{|l|}{\textbf{RKN} (W)} 							& \multicolumn{1}{l|}{\textbf{1C}}			& \multicolumn{1}{l|}{2E}						& \multicolumn{1}{c|}{}								\\
+\multicolumn{1}{|l|}{-Rekken} 									& \multicolumn{1}{l|}{\textbf{}} 				& \multicolumn{1}{l|}{\textbf{9Y}}				& \multicolumn{1}{c|}{}  								\\ \hline
 \end{tabular}
 \end{table}
 \end{textblock}
@@ -152,8 +151,8 @@
 \begin{tabular}{|llllll}
 \multicolumn{6}{c}{\textbf{EDFH - Hahn\textcolor{blue}{*}}} \\ \hline
 \multicolumn{1}{|l|}{RWY} 									& \multicolumn{1}{c|}{\textbf{21}} 			& \multicolumn{1}{c|}{\textbf{03}}  				& \multicolumn{2}{c|}{Restrictions} 				& \multicolumn{1}{c|}{\textbf{Cb}} 							\\ \hline
-\multicolumn{1}{|l|}{\textbf{GEBDA} (SE)}							& \multicolumn{1}{l|}{\textbf{5L}}			& \multicolumn{1}{l|}{\textbf{5E}} 				& \multicolumn{2}{c|}{}						& \multicolumn{1}{c|}{\multirow{7}{*}{\rotatebox{90}{5000ft}}}			 \\ \cline{1-5}
-\multicolumn{1}{|l|}{\textbf{IDARO} (SW)}							& \multicolumn{1}{l|}{\textbf{4Y} 9L\textbf{\textcolor{orange}{*}}}	& \multicolumn{1}{l|}{\textbf{ 8E} 4T}	& \multicolumn{2}{c|}{4Y only EDDR EDRZ EDSB  via Z818, G21}  & \multicolumn{1}{c|}{}								\\ \cline{1-5}
+\multicolumn{1}{|l|}{\textbf{GEBDA} (SE)}							& \multicolumn{1}{l|}{\textbf{5L}(FL60)}			& \multicolumn{1}{l|}{\textbf{5E}} 				& \multicolumn{2}{c|}{}						& \multicolumn{1}{c|}{\multirow{7}{*}{\rotatebox{90}{5000ft}}}			 \\ \cline{1-5}
+\multicolumn{1}{|l|}{\textbf{IDARO} (SW)}							& \multicolumn{1}{l|}{\textbf{4Y}(FL60) 9L\textbf{\textcolor{orange}{*}}}	& \multicolumn{1}{l|}{\textbf{ 8E} 4T}	& \multicolumn{2}{c|}{4Y only EDDR EDRZ EDSB  via Z818, G21}  & \multicolumn{1}{c|}{}								\\ \cline{1-5}
 
 \multicolumn{1}{|l|}{\textbf{NVO} (N)} 								& \multicolumn{1}{l|}{\textbf{3S}} 			& \multicolumn{1}{l|}{\textbf{3G}}				& \multicolumn{2}{c|}{by ATC only} 				& \multicolumn{1}{c|}{} 									\\ \cline{1-5}
 \multicolumn{1}{|l|}{\textbf{OLIVI} (SE)}							& \multicolumn{1}{l|}{\textbf{3S}}			& \multicolumn{1}{l|}{}						& \multicolumn{2}{c|}{by ATC only, non-Jet < 5t} 		& \multicolumn{1}{c|}{}									\\ \cline{1-5} 
