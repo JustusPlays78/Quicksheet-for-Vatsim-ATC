@@ -17,5 +17,4 @@ Inhalt / context:
 
 Have Fun! ;-)
 
-All rights to VATGer.
-VATSIM.
+Only for private and firends purpose
