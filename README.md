@@ -17,4 +17,4 @@ Inhalt / context:
 
 Have Fun! ;-)
 
-Only for private and firends purpose
+Only for private and friends purpose
